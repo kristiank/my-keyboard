@@ -1,0 +1,2 @@
+clear lock
+keycode  66 = BackSpace Caps_Lock NoSymbol Caps_Lock
