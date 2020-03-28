@@ -69,9 +69,15 @@ xkb_symbols "dvorak" {
     key <AC03>	{ [         e,          E, odiaeresis, Odiaeresis ]	};
     key <AC04>	{ [         u,          U, udiaeresis, Udiaeresis ]	};
     key <AC05>	{ [         i,          I,      aring,      Aring ]	};
+    key <AC09>	{ [         n,          N,     Return,     Return ]	};
     key <AC10>	{ [         s,          S,     scaron,     Scaron ]	};
     key <AB10>	{ [         z,          Z,     zcaron,     Zcaron ]	};
     key <AD08>	{ [         c,          C,     ccaron,     Ccaron ]	};
+    key <AD09>	{ [         r,          R,  BackSpace,  BackSpace ]	};
+    key <AB03>	{ [         j,          J,       Left,       Left ]	};
+    key <AB04>	{ [         k,          K,      Right,      Right ]	};
+    key <AD10>	{ [         l,          L,         Up,         Up ]	};
+    key <AC10>	{ [         s,          S,       Down,       Down ]	};
 
     include "level3(ralt_switch)"
     include "kpdl(comma)"
